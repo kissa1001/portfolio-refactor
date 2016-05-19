@@ -190,6 +190,8 @@ body{
 .about{
 	height:100vh;
 	clear:both;
+	margin-right: 8.5em;
+	margin-left:8em;
 }
 .my-img{
 	height:100%;
@@ -198,7 +200,6 @@ body{
 }
 .background{
 	padding-top: 3em;
-	margin-left:8em;
 	max-width: 500px;
 }
 .bg-text{
@@ -219,9 +220,10 @@ body{
 .navpoint:hover{
 	color:#58C9B9;
 }
+/**Projects**/
 .projects{
 	padding-top: 4em;
-	margin-left: 6em;
+	margin-left: 7em;
 	clear:both;
 }
 .projects-header{
