@@ -82,8 +82,6 @@ body{
 }
 .heading{
 	margin-top: 10em;
-	margin-left:8em;
-	max-width:500px;
 }
 .main-header{
 	color:#424242;
@@ -95,7 +93,7 @@ body{
 	float:left;
 	position:fixed;
 	list-style-type: none;
-	margin-top: 4em;
+	margin-top: 15%;
 }
 .socials li {
 	width: 40px;
@@ -188,20 +186,13 @@ body{
 }
 /**About**/
 .about{
-	height:100vh;
 	clear:both;
-	margin-right: 8.5em;
-	margin-left:8em;
+	padding-top: 3em;
 }
 .my-img{
-	height:100%;
-	float:right;
 	border-right:80px solid #424242;
 }
-.background{
-	padding-top: 3em;
-	max-width: 500px;
-}
+
 .bg-text{
 	font-size: 3em;
 	color:#424242;
@@ -223,7 +214,6 @@ body{
 /**Projects**/
 .projects{
 	padding-top: 4em;
-	margin-left: 7em;
 	clear:both;
 }
 .projects-header{
@@ -278,8 +268,8 @@ body{
 	font-size: 1.5em;
 	background:#424242;
 	color:#fff;
-	padding-top:3.5em;
-	padding-bottom: 2em;
+	padding-top:4em;
+	padding-bottom: 3.5em;
 	clear:both;
 }
 .footer-text{
@@ -297,112 +287,143 @@ body{
 }
 
 @media only screen and (max-width: 500px) {
-	.my-img{
-		display:none;
-	}
 	.heading{
-		margin-top: 10em;
-		margin-left:5em;
-		max-width:500px;
-	}
-	.main-header{
-		font-size: 2.5em;
-		font-weight: 700;
+		margin-top: 9em;
+		margin-left: 2.5em;
+		font-size:0.9em;
 	}
 	.socials{
-		margin-top: 2em;
+		margin-top: 30%;
 	}
-	.background{
-		padding-top: 1em;
-		margin-left: 4em;
-	}
-	.bg-text{
-		font-size: 3em;
-	}
-	.about-brief{
-		font-size: 1.3em;
-		color:#424242;
-	}
-	.navpoint{
-		color:#58C9B9;
-	}
-	.projects{
-		height:100vh;
-		padding-top: 1em;
+	/**About**/
+	.about{
+		padding-top: 2em;
 		padding-left: 2.5em;
 	}
-	.projects-header{
-		font-size: 3.5em;
-	}
-	.project{
-		margin-top: 1em;
-		padding-bottom: 2em;
-	}
-	.project-name{
-		font-size: 2em;
-	}
-	.project-brief{
-		margin-bottom: 1em;
-		font-size: 1.4em;
-	}
-	.project-links{
-		margin-bottom: 1em;
-	}
-	.footer{
-		margin-top: 3em;
-		font-size: 1.3em;
-	}
-}
-@media only screen and (min-width : 500px) and (max-width: 980px) {
-	.my-img{
+	.img-container{
 		display:none;
 	}
-	.heading{
-		margin-top: 10em;
-		margin-left:4em;
-		max-width:400px;
-	}
-	.main-header{
-		font-size: 3em;
-	}
-	.socials{
-		margin-top: 2em;
-	}
-	.background{
-		padding-top: 1em;
-		margin-left: 4em;
-	}
 	.bg-text{
-		font-size: 3.3em;
+		font-size: 2.8em;
 	}
 	.about-brief{
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
+	/**Projects**/
 	.projects{
-		height:100vh;
-		padding-top: 1em;
-		padding-left: 3em;
-	}
-	.projects-header{
-		font-size: 3.7em;
+		padding-top: 2em;
+		padding-left: 2.5em;
 	}
 	.project{
-		margin-top: 1em;
-		padding-bottom: 2em;
-		border-bottom: 1px solid #424242;
+		margin-top: 2em;
 	}
-	.project-name{
+	.projects-header{
+		font-size: 2.8em;
+	}
+	.project-name {
 		font-size: 2em;
 	}
-	.project-brief{
-		margin-bottom: 1em;
-		font-size: 1.5em;
+	.project-desc{
+		text-align: center;
+		padding-bottom: 2em;
+		font-size: 1em;
 	}
-	.project-links{
-		margin-bottom: 1.2em;
+	.footer p {
+		font-size: 1em;
+	}
+}
+@media only screen and (min-width : 500px) and (max-width: 768px) {
+	.heading{
+		margin-top: 9em;
+		margin-left: 2em;
+	}
+	.socials{
+		margin-top: 28%;
+	}
+	/**About**/
+	.about{
+		padding-top: 2em;
+		padding-left: 2em;
+	}
+	.img-container{
+		display:none;
+	}
+	/**Projects**/
+	.projects{
+		padding-top: 2em;
+		padding-left: 2em;
+	}
+	.project{
+		margin-top: 4em;
+	}
+	.project-desc{
+		text-align: center;
+		padding-bottom: 2em;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+	.heading{
+		margin-top: 9em;
+		margin-left: 2em;
+	}
+	/**About**/
+	.about{
+		padding-top: 3em;
+		padding-left: 2em;
+	}
+	.img-container{
+		display:none;
+	}
+	/**Projects**/
+	.projects{
+		padding-top: 4em;
+		padding-left: 2em;
+	}
+	.project-desc{
+		text-align: center;
+		padding-bottom: 2em;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.heading{
+		margin-top: 10em;
+	}
+	.main-header{
+		font-size: 4.5em;
+	}
+	.socials li {
+		width: 60px;
+		height: 60px;
+		line-height: 50px;
+	}
+	/**About**/
+	.about{
+		padding-top: 4em;
+	}
+	.bg-text{
+		font-size: 4em;
+	}
+	.about-brief{
+		font-size: 2em;
+	}
+	/**Projects**/
+	.projects{
+		padding-top: 4.5em;
+	}
+	.projects-header{
+		font-size: 4em;
+	}
+	.project{
+		margin-top: 7em;
+	}
+	.project-name{
+		font-size: 3em;
+	}
+	.project-brief{
+		font-size: 2em;
 	}
 	.footer{
-		margin-top: 3em;
-		font-size: 1.5em;
+		margin-top: 5em;
+		font-size: 2em;
 	}
 }

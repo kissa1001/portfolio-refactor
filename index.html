@@ -11,44 +11,46 @@
 	<link href='https://fonts.googleapis.com/css?family=Fanwood+Text|Satisfy' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<section class="main">
-		<div class="socials animation-element slide-left">
-			<li class="email-sb sb"><a title="Email" href="mailto:kissa101295@gmail.com?Subject=Portfolio"><i class="fa fa-envelope-o"></i></a></li>
-			<li class="fb-sb sb"><a title="Facebook" href="https://www.facebook.com/linka.nguyen.5" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			<li class="github-sb sb"><a title="Github" href="https://github.com/kissa1001"><i class="fa fa-github" target="_blank"></i></a></li>
-			<li class="linkedin-sb sb"><a title="LinkedIn" href="https://www.linkedin.com/in/thu-linh-nguyen-6a7876108?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		</div>
-		<div class="heading">
-			<span class = "hello-intro">Hello, I'm Lina Nguyen</span>
-			<h1 class="main-header">I'm a <span class='cursive-intro'>front-end web developer</span> <br>from Charlotte, NC</h1>
-		</div>
-		<div class="arrow">
-			<a href="#about" class="navpoint btn">
-				<i class="fa fa-angle-down fa-3x"></i>
-			</a>
-		</div>
-	</section>
-	<section class="about" id='about'>
-		<img class='my-img' src="img/me.jpg" alt="me">
-		<div class="background text-center">
-			<h2 class="bg-text">Who I am..</h2>
-			<hr class='hr-small'>
-			<div class="about-brief">
-				<p>My name is <strong>Lina</strong> (vietnamese:Thu Linh Nguyen), and I love to <strong>code</strong>, alongside I'm into travelling, discovering new places and taking good photos.</p>
-				<br>
-				<p>In 2015 I decided to move to US, it's a big opportunity for me to become independent from parents, so to start a new life I decided to take a <strong>Web Development</strong> course at Thinkful. Now after graduation I'm excited to put my skills to use and also develop them.</p>
-				<br>
-				<p>I'm a fast learner with extremely high passion for code, so check out my <a href="#projects" class="navpoint">projects</a> and let's get in <strong>touch!</strong> </p>
+	<div class="socials animation-element slide-left">
+		<li class="email-sb sb"><a title="Email" href="mailto:kissa101295@gmail.com?Subject=Portfolio"><i class="fa fa-envelope-o"></i></a></li>
+		<li class="fb-sb sb"><a title="Facebook" href="https://www.facebook.com/linka.nguyen.5" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		<li class="github-sb sb"><a title="Github" href="https://github.com/kissa1001"><i class="fa fa-github" target="_blank"></i></a></li>
+		<li class="linkedin-sb sb"><a title="LinkedIn" href="https://www.linkedin.com/in/thu-linh-nguyen-6a7876108?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+	</div>
+	<div class="container">
+		<section class="main row">
+			<div class="heading col-md-5 col-offset-md-7">
+				<span class = "hello-intro">Hello, I'm Lina Nguyen</span>
+				<h1 class="main-header">I'm a <span class='cursive-intro'>front-end web developer</span> <br>from Charlotte, NC</h1>
 			</div>
-		</div>
-	</section>
-	<section class="projects" id="projects">
-		<div class="projects-container container">
+			<div class="arrow">
+				<a href="#about" class="navpoint btn">
+					<i class="fa fa-angle-down fa-3x"></i>
+				</a>
+			</div>
+		</section>
+		<section class="about row" id='about'>
+			<div class="background text-center col-md-6">
+				<h2 class="bg-text text-center">Who I am..</h2>
+				<hr class='hr-small'>
+				<div class="about-brief">
+					<p>My name is <strong>Lina</strong> (vietnamese:Thu Linh Nguyen), and I love to <strong>code</strong>, alongside I'm into travelling, discovering new places and taking good photos.</p>
+					<br>
+					<p>In 2015 I decided to move to US, it's a big opportunity for me to become independent from parents, so to start a new life I decided to take a <strong>Web Development</strong> course at Thinkful. Now after graduation I'm excited to put my skills to use and also develop them.</p>
+					<br>
+					<p>I'm a fast learner with extremely high passion for code, so check out my <a href="#projects" class="navpoint">projects</a> and let's get in <strong>touch!</strong> </p>
+				</div>
+			</div>
+			<div class="img-container col-md-offset-1 col-md-5">
+				<img class='my-img img-responsive' src="img/me.jpg" alt="me">
+			</div>
+		</section>
+		<section class="projects" id="projects">
 			<h2 class='projects-header text-center'>Projects</h2>
 			<hr class="hr-small">
 			<div class="project">
 				<div class="row">
-					<div class="col-sm-5 project-desc">
+					<div class="col-md-5 project-desc">
 						<h4 class='project-name text-center'>Tic Tac Toe</h4>
 						<div class="project-brief">
 							<p>This is a chatroom with tic tac toe game inside, made with Node socket.io. You can do messaging and invite others to play tic tac toe game.</p>
@@ -63,14 +65,14 @@
 							</button></a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-offset-sm-1 project-thumb">
+					<div class="col-md-7 project-thumb">
 						<img class="img-responsive project-img" src="img/tictactoe.png" alt="project1">
 					</div>
 				</div>
 			</div>
 			<div class="project">
 				<div class="row">
-					<div class="col-sm-5 project-desc">
+					<div class="col-md-5 project-desc">
 						<h4 class='project-name text-center'>Tech Blog</h4>
 						<div class="project-brief">
 							<p>This is a blog project where you can read, post and delete blogs.</p>
@@ -85,14 +87,14 @@
 							</button></a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-offset-sm-1 project-thumb">
+					<div class="col-md-7 project-thumb">
 						<img class="img-responsive project-img" src="img/tech-blog.png" alt="project1">
 					</div>
 				</div>
 			</div>
 			<div class="project">
 				<div class="row">
-					<div class="col-sm-5 project-desc">
+					<div class="col-md-5 project-desc">
 						<h4 class='project-name text-center'>Insta Weather</h4>
 						<div class="project-brief">
 							<p>This is the app that uses Instagram API and Open Weather Map API that shows you which country has which weather with instagram photos.</p>
@@ -107,14 +109,14 @@
 							</button></a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-offset-sm-1 project-thumb">
+					<div class="col-md-7 project-thumb">
 						<img class="img-responsive project-img" src="img/insta-weather.png" alt="project1">
 					</div>
 				</div>
 			</div>
 			<div class="project">
 				<div class="row">
-					<div class="col-sm-5 project-desc">
+					<div class="col-md-5 project-desc">
 						<h4 class='project-name text-center'>Quizz App</h4>
 						<div class="project-brief">
 							<p>Dummy Quizz App using javascript and jQuery skills</p>
@@ -129,22 +131,22 @@
 							</button></a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-offset-sm-1 project-thumb">
+					<div class="col-md-7 project-thumb">
 						<img class="img-responsive project-img" src="img/quizz-app.png" alt="project1">
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 	<section class="footer text-center">
 		<p>Let's get in touch!</p>
-			<p><a class="email" href="mailto:kissa101295@gmail.com">kissa101295@gmail.com</a></p>
-			<p class='footer-text'>Made with <i class="fa fa-heart" id="heart" aria-hidden="true"></i> by Lina Nguyen</p>
-		</section>
+		<p><a class="email" href="mailto:kissa101295@gmail.com">kissa101295@gmail.com</a></p>
+		<p class='footer-text'>Made with <i class="fa fa-heart" id="heart" aria-hidden="true"></i> by Lina Nguyen</p>
+	</section>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="jquery-ui.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="app.js"></script>
-	</body>
-	</html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
