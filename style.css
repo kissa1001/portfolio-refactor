@@ -67,31 +67,7 @@ body{
 	-ms-transform: translate(0px, 0px);
 	transform: translate3d(0px, 0px, 0px);
 }
-/*Bounce up*/
-.bounce-up  {
-	opacity: 0;
-	-moz-transition: all 700ms ease-out;
-	-webkit-transition: all 700ms ease-out;
-	-o-transition: all 700ms ease-out;
-	transition: all 700ms ease-out;
-	-moz-transform: translate3d(0px, 200px, 0px);
-	-webkit-transform: translate3d(0px, 200px, 0px);
-	-o-transform: translate(0px, 200px);
-	-ms-transform: translate(0px, 200px);
-	transform: translate3d(0px, 200, 0px);
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
 
-.bounce-up.in-view {
-	opacity: 1;
-	-moz-transform: translate3d(0px, 0px, 0px);
-	-webkit-transform: translate3d(0px, 0px, 0px);
-	-o-transform: translate(0px, 0px);
-	-ms-transform: translate(0px, 0px);
-	transform: translate3d(0px, 0px, 0px);
-}
 /**Main page**/
 .main{
 	height:100vh;
@@ -213,16 +189,16 @@ body{
 /**About**/
 .about{
 	height:100vh;
+	clear:both;
 }
 .my-img{
 	height:100%;
 	float:right;
-	border-right:50px solid #424242;
-	border-left:50px solid #424242;
+	border-right:80px solid #424242;
 }
 .background{
 	padding-top: 3em;
-	margin-left: 10em;
+	margin-left:8em;
 	max-width: 500px;
 }
 .bg-text{
@@ -244,8 +220,9 @@ body{
 	color:#58C9B9;
 }
 .projects{
-	height:100vh;
 	padding-top: 4em;
+	margin-left: 6em;
+	clear:both;
 }
 .projects-header{
 	font-size: 3.5em;
@@ -254,7 +231,7 @@ body{
 	font-weight: 700;
 }
 .project{
-	margin-top: 5em;
+	margin-top: 7em;
 }
 .project-name{
 	font-size: 2.5em;
@@ -265,25 +242,43 @@ body{
 	font-family: "Fanwood Text";
 }
 .project-links{
-	text-align: center;
 	list-style: none;
 }
-.project-links a{
+.link-btn{
+	background-color:transparent;
+	border: 2px solid #424242;
+	padding-top: 0.3em;
+	padding-right: 1em;
+	padding-bottom: 0.3em;
+	padding-left: 1em;
+	font-size: 1.2em;
+	font-family: "Fanwood Text";
+}
+.link-btn:hover{
+	background-color:transparent;
+	border: 2px solid #58C9B9;
 	color:#58C9B9;
+}
+.project-links a{
+	color:#424242;
 	margin-right: 1em;
 }
 .project-links a:hover{
-	color:#424242;
+	color:#58C9B9;
 	text-decoration: none;
 }
+.project-img{
+	border-right:50px solid #424242;
+}
 .footer{
-	margin-top: 3em;
+	margin-top: 5em;
 	font-family: "Fanwood Text";
 	font-size: 1.5em;
 	background:#424242;
 	color:#fff;
-	padding-top:1em;
-	padding-bottom: 1em;
+	padding-top:3.5em;
+	padding-bottom: 2em;
+	clear:both;
 }
 .footer-text{
 	color:#fff;
@@ -317,7 +312,7 @@ body{
 	}
 	.background{
 		padding-top: 1em;
-		margin-left: 3.5em;
+		margin-left: 4em;
 	}
 	.bg-text{
 		font-size: 3em;
