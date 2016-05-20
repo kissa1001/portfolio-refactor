@@ -123,11 +123,11 @@ body{
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
-	-moz-transform: translate(-5px, 0px);
-	-webkit-transform: translate(-5px, 0px);
-	-o-transform: translate(-5px, 0px);
-	-ms-transform: translate(-5px, 0px);
-	transform: translate(-5px, 0px);
+	-moz-transform: translate(-7px, 0px);
+	-webkit-transform: translate(-7px, 0px);
+	-o-transform: translate(-7px, 0px);
+	-ms-transform: translate(-7px, 0px);
+	transform: translate(-7px, 0px);
 }
 .arrow {
 	position:absolute;
@@ -250,6 +250,10 @@ body{
 	background-color:transparent;
 	border: 2px solid #58C9B9;
 	color:#58C9B9;
+	-webkit-transition: 0.5s ease-out;
+  	-moz-transition: 0.5s ease-out;
+  	-o-transition: 0.5s ease-out;
+  	transition: 0.5s ease-out;
 }
 .project-links a{
 	color:#424242;
