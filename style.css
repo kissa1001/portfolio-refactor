@@ -11,7 +11,7 @@ body{
 	box-sizing: border-box;
 }
 
-/***General styling***/
+													/***General styling***/
 
 .hr-small{
 	border: 0;
@@ -44,7 +44,7 @@ body{
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(255,0,0,0.4); 
 }
-/*Animations*/
+													/*Animations*/
 /*Slide left*/
 .animation-element.slide-left {
 	opacity: 0;
@@ -68,7 +68,7 @@ body{
 	transform: translate3d(0px, 0px, 0px);
 }
 
-/**Main page**/
+													/**Main page**/
 .main{
 	height:100vh;
 }
@@ -289,7 +289,7 @@ body{
 #heart{
 	color:#58C9B9;
 }
-
+														/**Media queries**/
 @media only screen and (max-width: 500px) {
 	.heading{
 		margin-top: 9em;
