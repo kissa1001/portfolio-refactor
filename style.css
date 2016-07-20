@@ -72,6 +72,18 @@ body{
 .main{
 	height:100vh;
 }
+#cv-download, #cv-download:visited, #cv-download:active{
+	border:1px solid #424242;
+	text-transform: uppercase;
+	background: transparent;
+	padding: 10px 8px 10px 8px;
+	transition: 0.3s linear;
+	color: #424242;
+}
+#cv-download:hover{
+	border:1px solid #58C9B9;
+	color: #58C9B9;
+}
 .hello-intro{
 	text-transform: uppercase;
 	color:#424242;
